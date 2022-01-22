@@ -7,7 +7,7 @@
     height: 100vh;
     font-family: sans-serif;
     background-color: rgb(114, 114, 243);
-    color: #fff;
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center ;
@@ -31,7 +31,7 @@
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(0,0,100,0.8),rgba(0,0,100,0.8));
+    background-image: linear-gradient(rgba(31, 31, 182, 0.8),rgba(33, 33, 172, 0.8));
     padding: 55px;
     box-sizing: border-box;
     backface-visibility: hidden;
@@ -60,10 +60,10 @@
     box-sizing: border-box;
     outline: none;
     text-align: center;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
  ::placeholder{
-     color: #fff;
+     color: rgb(0, 0, 0);
      font-size: 12px;
  }
 
@@ -78,7 +78,7 @@
      padding: 0 10px;
      box-sizing: border-box;
      outline: none;
-     color: #fff;
+     color: rgb(0, 0, 0);
      cursor: pointer;
  }
 
@@ -106,7 +106,7 @@
      margin-top: 70px;
  }
  .card a{
-     color: #fff;
+     color: rgb(0, 0, 0);
      text-decoration: none;
      display: block;
      text-align: center;
