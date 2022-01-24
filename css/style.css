@@ -297,15 +297,24 @@
 
 /*middle banner*/
 
+/*blog start*/
 
 
-/*product section 2 start*/
+.blog{
+	height: 350px;
+	width: 65%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	overflow: hidden;
+    text-align: center;
+}
 
 
 
 
 
-/*product section 2 end*/
+/*blog end*/
+
 
 /*footer start*/
 
