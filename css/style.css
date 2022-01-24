@@ -7,6 +7,64 @@
 
 /*top header start*/
 
+.top-header{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: rgb(253, 245, 245);
+    background-color: rgb(32, 105, 3);
+    display: flex;
+    padding: 10px 10vw;
+    font-size: 16px;
+}
+.top-header-1st img{
+    height: 30px;
+    width: auto;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.top-header-1st{
+    width: 40%;
+    height: auto;
+    display:flex;
+    
+}
+
+.top-header-2nd img{
+    height: 30px;
+    width: auto;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.top-header-2nd{
+    width: 20%;
+    height: auto;
+    display: flex;
+    
+}
+.top-header-3rd img{
+    height: 30px;
+    width: auto;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.top-header-3rd{
+    width: 10%;
+    height: auto;
+    display: flex;
+}
+.top-header-4th img{
+    height: 30px;
+    width: auto;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.top-header-4th{
+    width: 30%;
+    height: auto;
+    display: flex;
+}
 
 /*top header end */
 
