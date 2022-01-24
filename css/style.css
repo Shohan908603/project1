@@ -246,6 +246,59 @@
 
 /*product section 1end*/
 
+
+
+.middle-banner{
+	
+    background-color: aquamarine;
+}
+.middle-text{
+	width: 65%;
+	height: 330px;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+.middle-text h5{
+	color: #81AB27;
+	padding: 5px 0;
+	font-size: 13px;
+}
+.middle-text h2{
+	font-size: 30px;
+	padding: 10px 0;
+}
+.middle-text h6{
+	font-size: 12px;
+	padding: 5px 0;
+	line-height: 1.8;
+	color: #9291A2;
+}
+.middle-btn{
+	width: 100%;
+	margin-top: 20px;
+}
+.middle-btn-btn{
+	background: #8da853;
+	font-size: 13px;
+	border: 1px solid;
+	text-decoration: none;
+	padding: 10px 25px;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 30px;
+}
+.middle-btn-btn:hover{
+	background: #025e02;
+	transition: .5s;
+    color: #fff;
+}
+
+
+
+/*middle banner*/
+
+
+
 /*product section 2 start*/
 
 
