@@ -5,6 +5,9 @@
     font-family: 'roboto', sans-serif;
 }
 
+
+
+
 /*top header start*/
 
 .top-header{
@@ -20,8 +23,7 @@
 .top-header-1st img{
     height: 30px;
     width: auto;
-    background-color: #fff;
-    border-radius: 50%;
+    
 }
 .top-header-1st{
     width: 40%;
@@ -33,21 +35,21 @@
 .top-header-2nd img{
     height: 30px;
     width: auto;
-    background-color: #fff;
-    border-radius: 50%;
+   background: none;
 }
 
 .top-header-2nd{
     width: 20%;
     height: auto;
     display: flex;
+    border-radius: 50%;
     
 }
 .top-header-3rd img{
     height: 30px;
     width: auto;
-    background-color: #fff;
-    border-radius: 50%;
+    background: none;
+  
 }
 .top-header-3rd{
     width: 10%;
@@ -57,8 +59,8 @@
 .top-header-4th img{
     height: 30px;
     width: auto;
-    background-color: #fff;
-    border-radius: 50%;
+    background: none;
+   
 }
 .top-header-4th{
     width: 30%;
@@ -205,6 +207,77 @@
 
 /*section 1 end*/
 
+
+/*banner overal start*/
+.margin{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.banner-overal-section{
+    
+    min-height: 30vh;
+}
+.banner-overal-container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-column-gap: 10px;
+}
+.banner-overal-item1{
+    
+    text-align: center;
+    margin-top: -90px;
+    height: 250px;
+    width: 100%;
+    background-image: url(../img/overal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    
+}
+.banner-overal-item2{
+   
+    text-align: center;
+    margin-top: -90px;
+    height: 250px;
+    width: 100%;
+    background-image: url(../img/overal2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:10px;
+}
+
+.about-container-1{
+    text-align: center;
+    height: 450px;
+    width: 100%;
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-container-2 h5{
+    color: rgb(133, 190, 27);
+}
+
+
+
+
+
+
+
+
+
+/* banner overal end*/
+
+
+
+
 /*product section 1start*/
 
 /* trending product section style start */
@@ -212,9 +285,18 @@
 .trending-products{
     margin-top: 5px;
     margin-bottom: 5px;
+    text-align: center;
+
+}
+
+.trending-products-2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
     margin-left: 200px;
     margin-right: 200px;
-    text-align: center;
+
+
 }
 
 .products-body{
