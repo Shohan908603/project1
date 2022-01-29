@@ -409,8 +409,31 @@
 
 /*middle banner*/
 
-/*blog start*/
 
+/*offer start*/
+
+.offer-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:10px ;
+}
+
+.offer-item1{
+    width: 100%;
+    height: 450px;
+    background-image: url();
+}
+
+
+
+
+
+/*offer end*/
+
+/*blog start*/
+.blog-section{
+    text-align: center;
+}
 
 .blog-container{
    
@@ -429,14 +452,40 @@
 }
 
 .blog-item2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:10px;
+}
+
+.blog-item2-1{
     width: 100%;
-    height: 450px;
-    background-image: url(../img/egg.jpg);
+    height: 225px;
+    background-image: url(../img/blog2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
    
 }
-
+.blog-item2-2{
+    width: 100%;
+    height: 242px;
+    background-image: url(../img/blog3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-item2-3{
+    width: 100%;
+    height: 208px;
+    background-image: url(../img/blog4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blog-item2-4{
+    width: 100%;
+    height: 208px;
+    background-image: url(../img/blog4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
