@@ -421,7 +421,16 @@
 .offer-item1{
     width: 100%;
     height: 450px;
-    background-image: url();
+    background-image: url(../img/blog3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.offer-item2{
+    width: 100%;
+    height: 450px;
+    background-image: url(../img/blog4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -448,6 +457,7 @@
     background-image: url(../img/blog1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
    
 }
 
