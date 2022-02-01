@@ -4,12 +4,18 @@ body{
     
 }
 .account{
+    
     text-align: center;
     font-size: 25px;
+    line-height: 78px;
+    color: white;
+    background-image:url(../img/banner.jpg) ;
+    height: 80px;
    
 }
 
 .main{
+    margin-top: 100px;
     margin-left: 300px;
     margin-right: 300px;
     display: flex;
